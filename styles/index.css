@@ -2,8 +2,6 @@
 h2{
     margin-top: 42px;
     margin-left: 144px;
-    position: sticky;
-    top: 30px;
 }
 
 /* "The design thinking superpowers" - section*/
@@ -148,10 +146,18 @@ section{
 }
 .tick{   /*something is wrong with the buttons, dont know how to align them*/
   display: flex;
-  justify-content: left;
+  justify-content:space-evenly;
   flex-wrap: wrap;
   flex-direction: column;
+  align-items:flex-start;
+
 }
+
+.fa-square-check{
+  color: #ff9900; 
+  size: 35px;
+}
+
 
 
 /*fonts for the four texts with icons*/
@@ -330,7 +336,48 @@ section{
   margin-top: 12px;
   color: #544837;
 }
+.p6{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;      
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: none;
+  width: 100%;
+  max-width: 486px;
+  margin-top: 22px;
+  color: #544837;
+}
+.p7{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;      
+  font-size: 16px;
+  line-height: 35px;
+  letter-spacing: none;
+  width: 100%;
+  max-width: 486px;
+  margin-top: 22px;
+  color: #544837;
+}
 
 
+/*Footer*/
 
+.container-footer{
+  margin-left: 180px;
+  max-width: 1109px;
+  margin-top: 146px;
+  display: flex;
+  border-top: 1px solid #979797;
+}
+.footer{
+  max-width: 1109px;
+  margin-top: 102px;
+}
 
+.footer-box{
+  margin-left: 126px;
+  max-width: 1109px;
+  margin-top: 167px;
+}
