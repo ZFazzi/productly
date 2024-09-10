@@ -253,6 +253,7 @@ section{
     height: 53px;
     margin-left: 600px;
     margin-top: 34px;
+    margin-bottom: 120px;
     border-radius: 6px;
     border-color: #FF9900;
     background-color: #FF9900;
@@ -271,7 +272,31 @@ section{
 .sign-up-now:hover {
     background-color: #ff9900d0;
     color: white;
+  }
+
+  .sign-up-now-footer{
+    width: 131px;
+    height: 39px;
+    margin-left: 82px;
+    margin-top: 21px;
     margin-bottom: 120px;
+    border-radius: 6px;
+    border-color: #FF9900;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 16px;
+    line-height: auto;
+    letter-spacing: none;
+    text-align: center;
+    
+    
+}
+.sign-up-now-footer:hover {
+    background-color: #ff9900d0;
+    color: white;
   }
 
 
@@ -380,4 +405,16 @@ section{
   margin-left: 126px;
   max-width: 1109px;
   margin-top: 167px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content:center;
+  flex-wrap: wrap;
+}
+
+.empty-box{
+  border: 1px solid #BCD0E5;
+  background-color: transparent;
+  height: 48px;
+  width: 325px;
+  border-radius: 6px;
 }
