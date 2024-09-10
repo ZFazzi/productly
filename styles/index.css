@@ -1,3 +1,4 @@
+/*Header*/
 h2{
     margin-top: 42px;
     margin-left: 144px;
@@ -5,7 +6,96 @@ h2{
     top: 30px;
 }
 
-h3{ /*We design tools to unveil your superpowers*/
+/* "The design thinking superpowers" - section*/
+.main-title{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;      
+  font-size: 44px;
+  line-height: 54px;
+  letter-spacing: none;
+  width: 100%;
+  max-width: 518px;
+  margin-top: 113px;
+  margin-left: 144px;
+  color: #2F281E;
+}
+.main-text{
+  color: #9A9A9A;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+  max-width: 583px;
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 144px;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: none;
+
+}
+
+/* "Watch the video" - link*/
+
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+  color: #FF9900;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: auto;
+  letter-spacing: none;
+  margin-left: 25px;
+  text-align: left;
+  border: none;
+}
+a:visited {
+  color: #FF9900;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: auto;
+  letter-spacing: none;
+  margin-left: 25px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #FF9900;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: auto;
+  letter-spacing: none;
+  margin-left: 25px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #FF9900;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: auto;
+  letter-spacing: none;
+  margin-left: 25px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* "We design tools to unveil your superpowers" - section*/
+h3{ 
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;      
@@ -19,7 +109,6 @@ h3{ /*We design tools to unveil your superpowers*/
   text-align: center;
   color: #2F281E;
 }
-
 .container{
   margin-left: 144px;
   display: flex;
@@ -28,49 +117,38 @@ h3{ /*We design tools to unveil your superpowers*/
   justify-content:baseline;
   align-items: center;
 } 
-
 .box{
   max-width: 240px;
   max-height: 204px;
   margin-top: 110px;
   margin-left: 46px;
 }
-
 section{
   display: inline-block;
 }
 
-.main-title{
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;      
-    font-size: 44px;
-    line-height: 54px;
-    letter-spacing: none;
-    width: 100%;
-    max-width: 518px;
-    margin-top: 113px;
-    margin-left: 144px;
-    color: #2F281E;
+/*fonts for the four texts with icons*/
+
+.icon-title{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;      
+  font-size: 22px;
+  line-height: auto;
+  letter-spacing: 0px;
+  color: #2F281E;
+}
+.icon-txt{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;      
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #544837;
 }
 
-.main-text{
-    color: #9A9A9A;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal; 
-    max-width: 583px;
-    width: 100%;
-    margin-top: 30px;
-    margin-left: 144px;
-    font-size: 20px;
-    line-height: 32px;
-    letter-spacing: none;
-
-}
-
-
-/*Buttons*/
+/*All the Buttons*/
 .start-btn{
     width: 152px;
     height: 63.82px;
@@ -140,8 +218,7 @@ section{
 .sign-up-now{
     width: 175px;
     height: 53px;
-    margin-left: 525px;
-    max-width: 60%;
+    margin-left: 600px;
     margin-top: 34px;
     border-radius: 6px;
     border-color: #FF9900;
@@ -165,87 +242,5 @@ section{
 
 
 
-/* "Watch the video" - link*/
-
-a:link {
-    background-color: transparent;
-    text-decoration: none;
-    color: #FF9900;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
-    line-height: auto;
-    letter-spacing: none;
-    margin-left: 25px;
-    text-align: left;
-    border: none;
-  }
-  
-a:visited {
-    color: #FF9900;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
-    line-height: auto;
-    letter-spacing: none;
-    margin-left: 25px;
-    text-align: left;
-    border: none;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-a:hover {
-    color: #FF9900;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
-    line-height: auto;
-    letter-spacing: none;
-    margin-left: 25px;
-    text-align: left;
-    border: none;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-a:active {
-    color: #FF9900;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
-    line-height: auto;
-    letter-spacing: none;
-    margin-left: 25px;
-    text-align: left;
-    border: none;
-    background-color: transparent;
-    text-decoration: underline;
-  }
 
 
-/*fonts for the four texts with icons*/
-
-.icon-title{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;      
-    font-size: 22px;
-    line-height: auto;
-    letter-spacing: 0px;
-    color: #2F281E;
-}
-
-.icon-txt{
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;      
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0px;
-    color: #544837;
-}
