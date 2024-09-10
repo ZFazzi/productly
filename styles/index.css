@@ -1,6 +1,43 @@
-.logo{
+h2{
     margin-top: 42px;
     margin-left: 144px;
+    position: sticky;
+    top: 30px;
+}
+
+h3{ /*We design tools to unveil your superpowers*/
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;      
+  font-size: 36px;
+  line-height: auto;
+  letter-spacing: none;
+  width: 100%;
+  max-width: 518px;
+  margin-top: 110px;
+  margin-left: 439px;
+  text-align: center;
+  color: #2F281E;
+}
+
+.container{
+  margin-left: 144px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:baseline;
+  align-items: center;
+} 
+
+.box{
+  max-width: 240px;
+  max-height: 204px;
+  margin-top: 110px;
+  margin-left: 46px;
+}
+
+section{
+  display: inline-block;
 }
 
 .main-title{
@@ -16,7 +53,6 @@
     margin-left: 144px;
     color: #2F281E;
 }
-
 
 .main-text{
     color: #9A9A9A;
@@ -101,10 +137,35 @@
     background-color: #ff9900d0;
     color: white;
   }
+.sign-up-now{
+    width: 175px;
+    height: 53px;
+    margin-left: 525px;
+    max-width: 60%;
+    margin-top: 34px;
+    border-radius: 6px;
+    border-color: #FF9900;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 16px;
+    line-height: auto;
+    letter-spacing: none;
+    text-align: center;
+   /* display: grid;
+    gap: 10px;*/    /*couldn't make this work properly*/
+    
+}
+.sign-up-now:hover {
+    background-color: #ff9900d0;
+    color: white;
+  }
 
 
 
-/*Watch the video*/
+/* "Watch the video" - link*/
 
 a:link {
     background-color: transparent;
@@ -121,7 +182,7 @@ a:link {
     border: none;
   }
   
-  a:visited {
+a:visited {
     color: #FF9900;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -136,7 +197,7 @@ a:link {
     text-decoration: none;
   }
   
-  a:hover {
+a:hover {
     color: #FF9900;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -151,7 +212,7 @@ a:link {
     text-decoration: underline;
   }
   
-  a:active {
+a:active {
     color: #FF9900;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -166,7 +227,25 @@ a:link {
     text-decoration: underline;
   }
 
-section{
-    display: inline-block;
+
+/*fonts for the four texts with icons*/
+
+.icon-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;      
+    font-size: 22px;
+    line-height: auto;
+    letter-spacing: 0px;
+    color: #2F281E;
 }
 
+.icon-txt{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;      
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #544837;
+}
