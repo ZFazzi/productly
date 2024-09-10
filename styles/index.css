@@ -114,11 +114,12 @@ h3{
   display: flex;
 
 } 
+
 .box{
   flex-wrap: wrap;
   flex-direction: row;
   justify-content:baseline;
-  align-items: center;
+  align-items: left;
 }
 
 .box__content{
@@ -126,25 +127,30 @@ h3{
   max-height: 204px;
   margin-top: 110px;
   margin-left: 46px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content:space-between;
+  margin-top: 120px;
 }
+
 
 section{
   display: inline-block;
 }
 
-.box.column{
+.box-column{
   flex-wrap: wrap;
   flex-direction: column;
   justify-content:space-between;
-  align-items: flex-start;
-  align-items: left;
+  margin-top: 120px;
+  margin-left: 46px;
   
 }
-.box-column__content{
-  max-width: 486px;
-  max-height: 204px;
-  margin-top: 110px;
-  margin-left: 46px;
+.tick{   /*something is wrong with the buttons, dont know how to align them*/
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 
@@ -259,6 +265,7 @@ section{
 .sign-up-now:hover {
     background-color: #ff9900d0;
     color: white;
+    margin-bottom: 120px;
   }
 
 
