@@ -112,20 +112,41 @@ h3{
 .container{
   margin-left: 144px;
   display: flex;
+
+} 
+.box{
   flex-wrap: wrap;
   flex-direction: row;
   justify-content:baseline;
   align-items: center;
-} 
-.box{
+}
+
+.box__content{
   max-width: 240px;
   max-height: 204px;
   margin-top: 110px;
   margin-left: 46px;
 }
+
 section{
   display: inline-block;
 }
+
+.box.column{
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: flex-start;
+  align-items: left;
+  
+}
+.box-column__content{
+  max-width: 486px;
+  max-height: 204px;
+  margin-top: 110px;
+  margin-left: 46px;
+}
+
 
 /*fonts for the four texts with icons*/
 
@@ -240,6 +261,68 @@ section{
     color: white;
   }
 
+
+/*Paragraphs*/
+.p1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;      
+  font-size: 16px;
+  line-height: auto;
+  letter-spacing: none;
+  width: 100%;
+  max-width: 518px;
+  margin-top: 26px;
+  color: #544837;
+}
+.p2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;      
+  font-size: 36px;
+  line-height: auto;
+  letter-spacing: none;
+  width: 100%;
+  max-width: 518px;
+  margin-top: 3px;
+  color: #2F281E;
+}
+.p3{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;      
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: none;
+  width: 100%;
+  max-width: 486px;
+  margin-top: 22px;
+  color: #544837;
+}
+.p4{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;      
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: none;
+  width: 100%;
+  max-width: 486px;
+  margin-top: 22px;
+  color: #2F281E;
+}
+.p5{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;      
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: none;
+  width: 100%;
+  max-width: 486px;
+  margin-top: 12px;
+  color: #544837;
+}
 
 
 
